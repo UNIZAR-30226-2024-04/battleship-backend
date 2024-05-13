@@ -1,0 +1,38 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Proyecto Software - Battleship",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest tests --coverage --runInBand",
+    "temp-test": "jest chatController.test.js --coverage --runInBand",
+    "docs-gen": "npx jsdoc -c .jsdoc.json -r",
+    "docs": "npm run docs-gen"
+  },
+  "author": "Hamilton Games",
+  "license": "MIT License",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "firefox": "^0.0.1",
+    "got": "^11.8.2",
+    "jest": "^29.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.12.14",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "docdash": "^2.0.2",
+    "jest": "^29.4.3",
+    "jsdoc": "^4.0.2",
+    "mocha": "^10.3.0",
+    "replace": "^1.2.2",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [],
+  "directories": {
+    "doc": "docs"
+  }
+}
