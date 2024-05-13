@@ -2,9 +2,9 @@
   "name": "battleship",
   "version": "1.0.0",
   "description": "Proyecto Software - Battleship",
-  "main": "server.js",
+  "main": "./server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js",
     "test": "jest tests --coverage --runInBand",
     "temp-test": "jest chatController.test.js --coverage --runInBand",
     "docs-gen": "npx jsdoc -c .jsdoc.json -r",
